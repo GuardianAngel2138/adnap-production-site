@@ -37,12 +37,15 @@
   --dark: #353C47;
   --primary: #0158FF;
   --primary-rgb: 1, 88, 255;
+  --white-4:  #FFFFFF0A;
+  --white-8:  #FFFFFF14;
+  --white-16: #FFFFFF29;
+  --white-32: #ffffff52;
+  --white-40: #FFFFFF66;
   --white-50: #FFFFFF80;
   --white-64: #FFFFFFA3;
-  --white-32: #ffffff52;
-  --white-16: #FFFFFF29;
-  --black-64: #000000A3;
   --black-32: #00000052;
+  --black-64: #000000A3;
   --line-2: #C5CCDC;
   /* Custom */
   --shadow-1: #0158FF29;
@@ -7422,6 +7425,25 @@ button.animate-btn::after,
   .footer-area {
     padding: 0px 15px 30px;
   }
+}
+
+/* -------  Testimonial carousel  ------- */
+
+/* Image fills the card top with correct ratio */
+.swiper-testimonial .author_image {
+  aspect-ratio: 437 / 328;
+  overflow: hidden;
+}
+.swiper-testimonial .author_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Strengthen the dim/blur overlay on non-active slides */
+.swiper-testimonial .swiper-slide::before {
+  background: var(--black-64);
+  backdrop-filter: blur(4px);
 }
 
 /*# sourceMappingURL=styles.css.map */
