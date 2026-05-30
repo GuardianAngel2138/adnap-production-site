@@ -573,20 +573,31 @@ $header_overlap   = true;
         </section>
         <!-- /Award -->
         <!-- Testimonials -->
+        <style>
+            /* Equal-height parallel cards — override grid with flex, disable slide dimming */
+            .swiper-testimonial .swiper-wrapper       { align-items: stretch; }
+            .swiper-testimonial .swiper-slide         { height: auto; }
+            .swiper-testimonial .swiper-slide::before { display: none !important; }
+            .swiper-testimonial .testimonial-v01      { display: flex !important; flex-direction: column; height: 100%; }
+            .swiper-testimonial .tes-text             { flex: 1; }
+            .swiper-testimonial .author_image         { aspect-ratio: 437 / 328; overflow: hidden; }
+            .swiper-testimonial .author_image img     { width: 100%; height: 100%; object-fit: cover; }
+        </style>
         <section class=”section-testimonial flat-spacing tf-btn-swiper-main”>
             <h6 class=”mini-title text-caption text-white-64 text-center”>
                 WHAT OUR CLIENTS SAY
             </h6>
-            <div dir=”ltr” class=”swiper tf-swiper swiper-testimonial” data-preview=”2.15” data-tablet=”2.2”
-                data-mobile-sm=”1.5” data-mobile=”1.2” data-loop=”true” data-center=”true” data-space-lg=”40”
-                data-space-md=”30” data-space=”15” data-init=”1”>
+            <div dir=”ltr” class=”swiper tf-swiper swiper-testimonial”
+                data-preview=”3” data-tablet=”2” data-mobile-sm=”1” data-mobile=”1”
+                data-loop=”true”
+                data-space-lg=”24” data-space-md=”20” data-space=”16”>
                 <div class=”swiper-wrapper”>
 
                     <!-- 1 — James Okoye -->
                     <div class=”swiper-slide”>
                         <div class=”testimonial-v01”>
                             <div class=”tes-author”>
-                                <div class=”author_image” style=”aspect-ratio:437/328;overflow:hidden;”>
+                                <div class=”author_image”>
                                     <img loading=”lazy” width=”437” height=”328”
                                         src=”assets/images/section/tes-v2-1.jpg” alt=”James Okoye”>
                                 </div>
@@ -606,7 +617,7 @@ $header_overlap   = true;
                     <div class=”swiper-slide”>
                         <div class=”testimonial-v01”>
                             <div class=”tes-author”>
-                                <div class=”author_image” style=”aspect-ratio:437/328;overflow:hidden;”>
+                                <div class=”author_image”>
                                     <img loading=”lazy” width=”437” height=”328”
                                         src=”assets/images/section/tes-v2-2.jpg” alt=”Sarah Tan”>
                                 </div>
@@ -626,7 +637,7 @@ $header_overlap   = true;
                     <div class=”swiper-slide”>
                         <div class=”testimonial-v01”>
                             <div class=”tes-author”>
-                                <div class=”author_image” style=”aspect-ratio:437/328;overflow:hidden;”>
+                                <div class=”author_image”>
                                     <img loading=”lazy” width=”437” height=”328”
                                         src=”assets/images/section/tes-v2-3.jpg” alt=”Marcus Reid”>
                                 </div>
@@ -646,7 +657,7 @@ $header_overlap   = true;
                     <div class=”swiper-slide”>
                         <div class=”testimonial-v01”>
                             <div class=”tes-author”>
-                                <div class=”author_image” style=”aspect-ratio:437/328;overflow:hidden;”>
+                                <div class=”author_image”>
                                     <img loading=”lazy” width=”437” height=”328”
                                         src=”assets/images/section/tes-v2-4.jpg” alt=”Aisha Rahman”>
                                 </div>
@@ -666,7 +677,7 @@ $header_overlap   = true;
                     <div class=”swiper-slide”>
                         <div class=”testimonial-v01”>
                             <div class=”tes-author”>
-                                <div class=”author_image” style=”aspect-ratio:437/328;overflow:hidden;”>
+                                <div class=”author_image”>
                                     <img loading=”lazy” width=”437” height=”328”
                                         src=”assets/images/section/tes-v2-5.jpg” alt=”Daniel Park”>
                                 </div>
@@ -686,7 +697,7 @@ $header_overlap   = true;
                     <div class=”swiper-slide”>
                         <div class=”testimonial-v01”>
                             <div class=”tes-author”>
-                                <div class=”author_image” style=”aspect-ratio:437/328;overflow:hidden;”>
+                                <div class=”author_image”>
                                     <img loading=”lazy” width=”437” height=”328”
                                         src=”assets/images/section/tes-v2-6.jpg” alt=”Priya Nair”>
                                 </div>
@@ -706,7 +717,7 @@ $header_overlap   = true;
                     <div class=”swiper-slide”>
                         <div class=”testimonial-v01”>
                             <div class=”tes-author”>
-                                <div class=”author_image” style=”aspect-ratio:437/328;overflow:hidden;”>
+                                <div class=”author_image”>
                                     <img loading=”lazy” width=”437” height=”328”
                                         src=”assets/images/section/tes-v2-7.jpg” alt=”Tom Reeves”>
                                 </div>
