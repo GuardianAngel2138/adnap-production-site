@@ -1,5 +1,5 @@
-<?php
-$page_title       = 'ADNAP Portfolio — Our Work';
+﻿<?php
+$page_title       = 'ADNAP Portfolio â€” Our Work';
 $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, AI video, and web design projects that deliver impact and measurable results.';
 ?>
 <!DOCTYPE html>
@@ -12,7 +12,7 @@ $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, 
 <head>
 <?php include __DIR__ . '/partials/head.php'; ?>
 <style>
-/* ── Hover-reveal overlay on wg-work cards ── */
+/* â”€â”€ Hover-reveal overlay on wg-work cards â”€â”€ */
 .wg-work {
     overflow: hidden;
     cursor: pointer;
@@ -48,7 +48,7 @@ $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, 
     transform: scale(1.05);
 }
 
-/* ── Uniform aspect-ratio in grids ── */
+/* â”€â”€ Uniform aspect-ratio in grids â”€â”€ */
 .portfolio-grid .wg-work .work-image,
 .service-grid .wg-work .work-image {
     aspect-ratio: 16/9;
@@ -66,7 +66,7 @@ $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, 
     display: block;
 }
 
-/* ── Service-card label styles ── */
+/* â”€â”€ Service-card label styles â”€â”€ */
 .svc-label {
     font-size: 11px;
     letter-spacing: 0.12em;
@@ -108,7 +108,7 @@ $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, 
             </div>
         </div>
 
-        <!-- ── Selected Client Work ── -->
+        <!-- â”€â”€ Selected Client Work â”€â”€ -->
         <section class="flat-spacing">
             <div class="container">
                 <div class="row align-items-end mb-5">
@@ -120,14 +120,14 @@ $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, 
                     </div>
                     <div class="col-lg-5 ms-auto">
                         <p class="text-body-1 text-white-64 effectFade fadeUp">
-                            From brand identity to full-scale digital ecosystems — each project is built with purpose, precision, and a clear outcome in mind.
+                            From brand identity to full-scale digital ecosystems â€” each project is built with purpose, precision, and a clear outcome in mind.
                         </p>
                     </div>
                 </div>
 
                 <div class="tf-grid-layout md-col-2 portfolio-grid">
 
-                    <!-- Nexora — video card -->
+                    <!-- Nexora â€” video card -->
                     <a href="#" class="wg-work effectFade fadeUp no-div">
                         <div class="work-image">
                             <video muted="" autoplay="" loop="" playsinline="">
@@ -335,7 +335,7 @@ $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, 
             </div>
         </section>
 
-        <!-- ── Our Capabilities ── -->
+        <!-- â”€â”€ Our Capabilities â”€â”€ -->
         <section class="flat-spacing">
             <div class="container">
                 <div class="br-line d-flex mb-5"></div>
@@ -348,7 +348,7 @@ $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, 
                     </div>
                     <div class="col-lg-5 ms-auto">
                         <p class="text-body-1 text-white-64 effectFade fadeUp">
-                            From immersive animation to strategic branding — explore the full range of what ADNAP delivers.
+                            From immersive animation to strategic branding â€” explore the full range of what ADNAP delivers.
                         </p>
                     </div>
                 </div>
@@ -358,9 +358,7 @@ $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, 
                     <!-- 2D Animation -->
                     <a href="service-2d-animation.php" class="wg-work effectFade fadeUp no-div">
                         <div class="work-image">
-                            <video muted="" autoplay="" loop="" playsinline="" poster="assets/images/section/work-1.jpg">
-                                <source src="assets/images/video/2d-demo.mp4" type="video/mp4">
-                            </video>
+                            <img loading="lazy" src="assets/images/section/work-1.jpg" alt="2D Animation">
                         </div>
                         <div class="work-content">
                             <div class="work_top">
@@ -377,9 +375,7 @@ $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, 
                     <!-- 3D Animation -->
                     <a href="service-3d-animation.php" class="wg-work effectFade fadeUp no-div">
                         <div class="work-image">
-                            <video muted="" autoplay="" loop="" playsinline="" poster="assets/images/section/work-5.jpg">
-                                <source src="assets/images/video/3d-demo.mp4" type="video/mp4">
-                            </video>
+                            <img loading="lazy" src="assets/images/section/work-5.jpg" alt="3D Animation">
                         </div>
                         <div class="work-content">
                             <div class="work_top">
@@ -388,7 +384,7 @@ $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, 
                             </div>
                             <div class="work_bottom" style="flex-direction:column;align-items:flex-start;gap:8px;">
                                 <h5 class="letter-space--2 mb-0">3D Animation_</h5>
-                                <p class="svc-desc">Depth, realism, and purpose — built for brands that demand presence.</p>
+                                <p class="svc-desc">Depth, realism, and purpose â€” built for brands that demand presence.</p>
                             </div>
                         </div>
                     </a>
@@ -405,7 +401,7 @@ $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, 
                             </div>
                             <div class="work_bottom" style="flex-direction:column;align-items:flex-start;gap:8px;">
                                 <h5 class="letter-space--2 mb-0">Branding_</h5>
-                                <p class="svc-desc">Cohesive identities from logos to full design systems — digital and print.</p>
+                                <p class="svc-desc">Cohesive identities from logos to full design systems â€” digital and print.</p>
                             </div>
                         </div>
                     </a>
@@ -413,9 +409,7 @@ $page_description = 'Explore ADNAP\'s portfolio of 2D & 3D animation, branding, 
                     <!-- AI Video Generation -->
                     <a href="service-ai-video.php" class="wg-work effectFade fadeUp no-div">
                         <div class="work-image">
-                            <video muted="" autoplay="" loop="" playsinline="" poster="assets/images/section/work-3.jpg">
-                                <source src="assets/images/video/ai-video-demo.mp4" type="video/mp4">
-                            </video>
+                            <img loading="lazy" src="assets/images/section/work-3.jpg" alt="AI Video Generation">
                         </div>
                         <div class="work-content">
                             <div class="work_top">

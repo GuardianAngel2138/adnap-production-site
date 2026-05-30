@@ -229,8 +229,8 @@
             gsap.registerPlugin(ScrollTrigger);
 
             document.querySelectorAll(".effectFade").forEach((el) => {
-                let fromVars = { autoAlpha: 0 };
-                let toVars = { autoAlpha: 1, duration: 1, ease: "power3.out" };
+                let fromVars = { opacity: 0 };
+                let toVars = { opacity: 1, duration: 1, ease: "power3.out" };
                 let wrapper = null;
                 let startPush = "top 95%";
                 let delay = el.dataset.delay ? parseFloat(el.dataset.delay) : 0;

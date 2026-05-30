@@ -892,7 +892,7 @@ $header_overlap   = true;
                             <div class="col-left">
                                 <a href="index.php" class="logo-custom">
                                     <div class="logo-site-sv">
-                                        <img src="assets/images/logo/adnap-logo.png" alt="ADNAP" width="34" height="34"
+                                        <img src="assets/images/logo/adnap-logo.png" alt="ADNAP" width="115" height="115"
                                             style="object-fit:contain;">
                                     </div>
                                     <span class="line-vertical left"></span>

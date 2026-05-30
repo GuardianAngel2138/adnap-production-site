@@ -1,3 +1,13 @@
+<?php
+if (!isset($_cp)) {
+    $_cp        = basename($_SERVER['PHP_SELF']);
+    $_isAbout   = ($_cp === 'about.php');
+    $_isService = ($_cp === 'services.php' || strpos($_cp, 'service-') === 0);
+    $_isPortfolio = ($_cp === 'portfolio.php');
+    $_isBlog    = (strpos($_cp, 'blog-') === 0);
+    $_isContact = ($_cp === 'contact.php');
+}
+?>
     <!-- Mobile Menu -->
     <div class="offcanvas offcanvas-bottom offcanvas-menu" id="mobileMenu">
         <div class="offcanvas-content">
@@ -16,7 +26,7 @@
                         <ul class="nav-ul-mb">
                             <li>
                                 <div class="item">
-                                    <a href="about.php" class="mb-menu-link text-display-1">
+                                    <a href="about.php" class="mb-menu-link text-display-1<?php echo $_isAbout ? ' active' : ''; ?>">
                                         <span class="text">About</span>
                                         <div class="infiniteSlide_text_main">
                                             <div class="infiniteSlide infiniteSlide_text" data-clone="5">
@@ -36,7 +46,7 @@
                             </li>
                             <li>
                                 <div class="item">
-                                    <a href="services.php" class="mb-menu-link text-display-1">
+                                    <a href="services.php" class="mb-menu-link text-display-1<?php echo $_isService ? ' active' : ''; ?>">
                                         <span class="text">Services</span>
                                         <div class="infiniteSlide_text_main">
                                             <div class="infiniteSlide infiniteSlide_text" data-clone="5">
@@ -56,7 +66,7 @@
                             </li>
                             <li>
                                 <div class="item">
-                                    <a href="portfolio.php" class="mb-menu-link text-display-1">
+                                    <a href="portfolio.php" class="mb-menu-link text-display-1<?php echo $_isPortfolio ? ' active' : ''; ?>">
                                         <span class="text">Portfolio</span>
                                         <div class="infiniteSlide_text_main">
                                             <div class="infiniteSlide infiniteSlide_text" data-clone="5">
@@ -76,7 +86,7 @@
                             </li>
                             <li>
                                 <div class="item">
-                                    <a href="blog-two-columns.php" class="mb-menu-link text-display-1">
+                                    <a href="blog-two-columns.php" class="mb-menu-link text-display-1<?php echo $_isBlog ? ' active' : ''; ?>">
                                         <span class="text">Blog</span>
                                         <div class="infiniteSlide_text_main">
                                             <div class="infiniteSlide infiniteSlide_text" data-clone="5">
@@ -96,7 +106,7 @@
                             </li>
                             <li>
                                 <div class="item">
-                                    <a href="contact.php" class="mb-menu-link text-display-1">
+                                    <a href="contact.php" class="mb-menu-link text-display-1<?php echo $_isContact ? ' active' : ''; ?>">
                                         <span class="text">Contact</span>
                                         <div class="infiniteSlide_text_main">
                                             <div class="infiniteSlide infiniteSlide_text" data-clone="5">
