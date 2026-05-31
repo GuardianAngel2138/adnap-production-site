@@ -1,0 +1,3 @@
+[submodule "adnap"]
+	path = adnap
+	url = https://github.com/avensora/adnap-production-site
