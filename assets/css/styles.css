@@ -7526,10 +7526,15 @@ button.animate-btn::after,
    LIGHT THEME
    ==================================================== */
 
-/* 1. White base */
+/* 1. Base */
 body {
-  background-color: #ffffff;
+  background-color: #e2e7fa;
   color: #000000;
+}
+
+/* Headings: brand blue */
+h1, h2, h3, h4, h5, h6 {
+  color: #0158ff;
 }
 
 /* 2. Globally remap opacity vars so text/borders are dark on white bg */
@@ -7560,9 +7565,9 @@ body {
   --white-64: rgba(255, 255, 255, 0.64);
 }
 
-/* 4. Footer: dark bg, white text */
+/* 4. Footer: brand blue bg, white text */
 .tf-footer {
-  background-color: #000000;
+  background-color: #0158ff;
   color: #ffffff;
 }
 .tf-footer a {
@@ -7574,10 +7579,10 @@ body {
   color: #ffffff;
 }
 
-/* 6. Sticky header: white bg, subtle shadow */
+/* 6. Sticky header: match body bg */
 header.header-sticky {
-  background-color: #ffffff !important;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08) !important;
+  background-color: #e2e7fa !important;
+  box-shadow: 0 2px 20px rgba(1, 88, 255, 0.10) !important;
 }
 
 /* 7. On hero pages (index.php — no .m-0 class), nav text is white over dark video */
@@ -7598,41 +7603,41 @@ header.tf-header:not(.m-0):not(.header-sticky) .nav-chevron {
   border-color: rgba(255, 255, 255, 0.45);
 }
 
-/* 8. Contact button: dark on non-hero header and sticky */
+/* 8. Contact button: brand blue on non-hero header and sticky */
 header.tf-header.m-0 .tf-btn,
 header.header-sticky .tf-btn {
-  color: #000000;
-  border-color: #000000;
+  color: #0158ff;
+  border-color: #0158ff;
 }
 header.tf-header.m-0 .tf-btn::before,
 header.header-sticky .tf-btn::before {
-  background-color: #000000;
+  background-color: #0158ff;
 }
 header.tf-header.m-0 .tf-btn:hover,
 header.header-sticky .tf-btn:hover {
   color: #ffffff;
 }
 
-/* 9. Sub-menu: light bg on white page */
+/* 9. Sub-menu: white card on blue-tinted page */
 .sub-menu {
-  background-color: rgba(252, 252, 252, 0.98);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.10), 0 0 0 1px rgba(0, 0, 0, 0.07);
+  background-color: rgba(255, 255, 255, 0.97);
+  box-shadow: 0 8px 24px rgba(1, 88, 255, 0.12), 0 0 0 1px rgba(1, 88, 255, 0.08);
 }
 .sub-menu li > a {
   color: rgba(0, 0, 0, 0.50);
 }
 .sub-menu li + li {
-  border-top-color: rgba(0, 0, 0, 0.06);
+  border-top-color: rgba(1, 88, 255, 0.07);
 }
 .sub-menu li > a:hover,
 .sub-menu li > a.active {
   color: var(--primary);
 }
 
-/* 10. GoTop: keep dark, update shadow for light page */
+/* 10. GoTop: brand blue */
 #goTop {
-  background: #000000;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  background: #0158ff;
+  box-shadow: 0 4px 16px rgba(1, 88, 255, 0.30);
 }
 
 /* 11. Form inputs: dark text on white */
