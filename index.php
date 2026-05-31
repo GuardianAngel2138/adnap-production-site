@@ -1,5 +1,5 @@
 <?php
-$page_title       = 'ADNAP — Think Backward. Build Forward.';
+$page_title       = 'ADNAP — Think Backward Build Forward';
 $page_description = 'ADNAP Digital Agency — Brand strategy, web design, and digital growth for modern businesses. Think Backward. Build Forward.';
 $header_overlap   = true;
 ?>
@@ -82,8 +82,8 @@ $header_overlap   = true;
                 </div>
                 <div class="hero-tagline text-center effectFade fadeUp" style="padding:40px 0 20px;">
                     <h1 class="text-display-1 fw-semibold letter-space--3" style="line-height:1.05;">
-                        Think Backward.<br>
-                        <span class="text-primary">Build Forward.</span>
+                        Think Backward<br>
+                        <span class="text-primary">Build Forward</span>
                     </h1>
                 </div>
                 <div class="bottom">
