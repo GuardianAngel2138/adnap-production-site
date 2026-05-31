@@ -988,54 +988,7 @@ $header_overlap   = true;
             </div>
         </section>
         <!-- /CTA -->
-        <!-- Footer -->
-        <footer class="tf-footer style-2">
-            <div class="container">
-                <div class="br-line"></div>
-            </div>
-            <div class="container">
-                <div class="footer-inner text-caption letter-space--1 fw-medium">
-                    <a href="#aboutScroll" class="link">ABOUT</a>
-                    <a href="#serviceScroll" class="link">SERVICES</a>
-                    <a href="#workScroll" class="link">PORTFOLIO</a>
-                    <a href="blog-standard.php" class="link">BLOG</a>
-                    <a href="#" class="action-go-top tf-link-icon link">
-                        BACK TO TOP
-                        <i class="icon icon-arrow-long-right"></i>
-                    </a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="img-agency scroll-fadeZoom" style="display:flex;align-items:center;justify-content:center;overflow:hidden;">
-                        <p class="effectFade fadeZoom text-white fw-semibold letter-space--3"
-                            style="font-size:clamp(80px,16vw,220px);line-height:0.9;opacity:0.08;user-select:none;white-space:nowrap;">
-                            ADNAP
-                        </p>
-                    </div>
-                    <div class="bottom text-caption letter-space--1 fw-medium">
-                        <p class="text-nocopy">
-                            © ADNAP DIGITAL AGENCY
-                        </p>
-                        <p class="">
-                            KL → <span class="clock"></span>
-                        </p>
-                        <div class="right">
-                            <a href="#" class="tf-link-icon link">
-                                INSTAGRAM
-                            </a>
-                            <a href="#" class="tf-link-icon link">
-                                LINKEDIN
-                            </a>
-                            <a href="#" class="tf-link-icon link">
-                                TWITTER (X)
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!-- /Footer -->
+        <?php include __DIR__ . '/partials/footer.php'; ?>
     </main>
 <?php include __DIR__ . '/partials/mobile-menu.php'; ?>
     <!-- Javascript -->
