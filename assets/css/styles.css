@@ -7537,7 +7537,19 @@ h1, h2, h3, h4, h5, h6 {
   color: #0158ff;
 }
 
-/* 2. Globally remap opacity vars so text/borders are dark on white bg */
+/* Alternating section bg */
+.bg-surface {
+  background-color: #f0f3fc;
+}
+
+/* Blue-bg elements: white text */
+.tf-footer,
+.bg-blue,
+[class*="bg-primary"] {
+  color: #ffffff;
+}
+
+/* 2. Globally remap opacity vars to black-opacity for muted text/borders */
 :root {
   --white-4:  rgba(0, 0, 0, 0.03);
   --white-8:  rgba(0, 0, 0, 0.05);
