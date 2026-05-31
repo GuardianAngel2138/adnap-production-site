@@ -38,7 +38,7 @@ $page_description = 'Explore ADNAP\'s services: 2D animation, 3D animation, bran
     font-size: clamp(1.4rem, 3vw, 2.2rem);
     font-weight: 500;
     letter-spacing: -0.03em;
-    color: rgba(255,255,255,0.18);
+    color: var(--primary);
     min-width: 48px;
     transition: color 0.32s ease;
     flex-shrink: 0;
